@@ -2,36 +2,66 @@
 <html>
 <head>
   <title>Ravi Saroj</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
+  <head>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+  
+      h1 {
+        color: #333;
+      }
+  
+      h2 {
+        color: #666;
+        margin-top: 30px;
+      }
+  
+      p, ul {
+        color: #999;
+        margin-bottom: 10px;
+      }
+  
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+  
+      ul {
+        list-style: disc;
+        padding-left: 20px;
+      }
+  
+      /* Experience Section Styles */
+      h3 {
+        color: #333;
+        margin-bottom: 5px;
+      }
+
+       /* Skills Section Styles */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
 
-    h1 {
-      color: #333;
+    .category {
+      flex-basis: 48%;
     }
-
-    h2 {
-      color: #666;
-      margin-top: 30px;
-    }
-
-    p, ul {
-      color: #999;
-      margin-bottom: 10px;
-    }
-
-    a {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    ul {
-      list-style: disc;
-      padding-left: 20px;
-    }
-  </style>
+  
+      .date {
+        color: #666;
+        margin-top: -10px;
+        margin-bottom: 15px;
+      }
+  
+      li {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
 </head>
 <body>
   <h1>Ravi Saroj</h1>
@@ -50,44 +80,125 @@
     <li>UNIVERSITY OF ALLAHABAD - BSc in Computer Science & Mathematics, May 2016, Prayagraj, India</li>
   </ul>
   <h2>Skills</h2>
-  <ul>
-    <li>PROFICIENT IN PROGRAMMING: Java, Python, SQL</li>
-    <li>EXPERT IN FRAMEWORKS: Spring Boot, Hibernate, gRPC</li>
-    <li>EXPERT IN DATABASES: SQL, MongoDB, Neo4j, Redis</li>
-    <li>FAMILIAR CLOUD SERVICES: Microsoft Azure, AWS, Google Cloud</li>
-    <li>TECHNICAL EXPERTISE: Microservice Development, Real-time Decision Engine, Analytical Pipeline Development, Large Scale Reliable System, Object-oriented programming, Agile Development</li>
-    <li>FAMILIAR TOOLS: Kafka, RabbitMQ, Redis, Neo4j, Apache Spark, Apache Airflow, Apache SOLR, Elastic Search, Nginx, git, SVN, Maven, Jenkins, Eclipse</li>
-  </ul>
+<div class="skills">
+  <div class="category">
+    <h3>Proficient in Programming</h3>
+    <ul>
+      <li>Java</li>
+      <li>Python</li>
+      <li>SQL</li>
+    </ul>
+  </div>
+  <div class="category">
+    <h3>Expert in Frameworks</h3>
+    <ul>
+      <li>Spring Boot</li>
+      <li>Hibernate</li>
+      <li>gRPC</li>
+    </ul>
+  </div>
+  <div class="category">
+    <h3>Expert in Databases</h3>
+    <ul>
+      <li>SQL</li>
+      <li>MongoDB</li>
+      <li>Neo4j</li>
+      <li>Redis</li>
+    </ul>
+  </div>
+  <div class="category">
+    <h3>Familiar Cloud Services</h3>
+    <ul>
+      <li>Microsoft Azure</li>
+      <li>AWS</li>
+      <li>Google Cloud</li>
+    </ul>
+  </div>
+  <div class="category">
+    <h3>Technical Expertise</h3>
+    <ul>
+      <li>Microservice Development</li>
+      <li>Real-time Decision Engine</li>
+      <li>Analytical Pipeline Development</li>
+      <li>Large Scale Reliable System</li>
+      <li>Object-oriented programming</li>
+      <li>Agile Development</li>
+    </ul>
+  </div>
+  <div class="category">
+    <h3>Familiar Message Queue </h3>
+    <ul>
+      <li>Kafka</li>
+      <li>RabbitMQ</li>
+    </ul>
+  </div>
+  <div class="category">
+    <h3>Big Data Tools</h3>
+    <ul>
+      <li>Apache Spark</li>
+      <li>Apache Airflow</li>
+      <li>Apache SOLR</li>
+      <li>Elastic Search</li>
+    </ul>
+  </div>
+  <div class="category">
+    <h3>Version Control & Build Tools</h3>
+    <ul>
+      <li>git</li>
+      <li>SVN</li>
+      <li>Maven</li>
+      <li>Jenkins</li>
+    </ul>
+  </div>
+  <div class="category">
+    <h3>Integrated Development Environment (IDE)</h3>
+    <ul>
+      <li>Eclipse</li>
+      <li>Visual Studio code</li>
+    </ul>
+  </div>
+</div>
   <h2>Profile</h2>
   <p>
     Highly skilled software engineer with over 4 years of experience. Proficient in multiple programming languages including Java and Python. Expertise in design and development of software systems. Expert in microservice development and AWS, Azure cloud services. Keen to learn the latest cutting-edge development tools, concepts, and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. Demonstrated ability to work well in an agile environment and lead projects from conception to completion.
   </p>
   <h2>Experience</h2>
-  <ul>
-    <li>EFFIYA TECHNOLOGIES PVT. LTD. | Senior Software Engineer | June 2019 - Present | Noida, India<br>
-      - Developed real-time transaction fraud alert system using Kafka, Redis, MSSQL, Spring Boot<br>
-      - Developed Anti money laundering risk analysis system based on GraphDB<br>
-      - Designed and developed business rule manager using Spring Boot and MSSQL<br>
-      - Developed AML data analytical and inference pipeline using Apache Airflow and Spark on big transaction data<br>
-      - Delivered diverse projects ranging from Customer Segmentation, customer analytics, and Sanctions (Payment screening)<br>
-      - Continually identified and delivered scalable solutions<br>
-      - Worked with stakeholders to plan requirements. Creating, communicating, and managing project plans<br>
-      - Troubleshooting, debugging, and upgrading existing systems<br>
-      - Performing automated testing tasks and developed complex features<br>
-      - Coordinating with stakeholders to manage and control project issues<br>
-      - Brought forth extensive experience using and developing APIs<br>
-      - Leading R&D initiatives at the organization<br>
-      - Leading a team of junior software engineers and ensuring the quality
-      - Leading a team of junior software engineers and ensuring the quality of their work
-    </li>
-    <li>I3 CONSULTING PRIVATE LIMITED | Project Intern | Jan 2019 - June 2019 | Noida, India<br>
-      - Worked in collaboration with the senior project manager to define project goals and establish a timeline and plan to achieve them<br>
-      - Conducted the proof of concepts on the net promoter score (NPS)<br>
-      - Effectively coded software changes and alterations based on specific design specifications<br>
-      - Implemented and updated application modules under the direction of Senior Software Developers<br>
-      - Implemented the solution of real-time transaction monitoring
-    </li>
-  </ul>
+<ul>
+  <li>
+    <div>
+      <h3>EFFIYA TECHNOLOGIES PVT. LTD. | Senior Software Engineer</h3>
+      <p class="date">June 2019 - Present | Noida, India</p>
+      <ul>
+        <li>Developed real-time transaction fraud alert system using Kafka, Redis, MSSQL, Spring Boot</li>
+        <li>Developed Anti money laundering risk analysis system based on GraphDB</li>
+        <li>Designed and developed business rule manager using Spring Boot and MSSQL</li>
+        <li>Developed AML data analytical and inference pipeline using Apache Airflow and Spark on big transaction data</li>
+        <li>Delivered diverse projects ranging from Customer Segmentation, customer analytics, and Sanctions (Payment screening)</li>
+        <li>Continually identified and delivered scalable solutions</li>
+        <li>Worked with stakeholders to plan requirements. Creating, communicating, and managing project plans</li>
+        <li>Troubleshooting, debugging, and upgrading existing systems</li>
+        <li>Performing automated testing tasks and developed complex features</li>
+        <li>Coordinating with stakeholders to manage and control project issues</li>
+        <li>Brought forth extensive experience using and developing APIs</li>
+        <li>Leading R&D initiatives at the organization</li>
+        <li>Leading a team of junior software engineers and ensuring the quality of their work</li>
+      </ul>
+    </div>
+  </li>
+  <li>
+    <div>
+      <h3>I3 CONSULTING PRIVATE LIMITED | Project Intern</h3>
+      <p class="date">Jan 2019 - June 2019 | Noida, India</p>
+      <ul>
+        <li>Worked in collaboration with the senior project manager to define project goals and establish a timeline and plan to achieve them</li>
+        <li>Conducted the proof of concepts on the net promoter score (NPS)</li>
+        <li>Effectively coded software changes and alterations based on specific design specifications</li>
+        <li>Implemented and updated application modules under the direction of Senior Software Developers</li>
+        <li>Implemented the solution of real-time transaction monitoring</li>
+      </ul>
+    </div>
+  </li>
+</ul>
   <h2>Awards</h2>
   <ul>
     <li>Qualified the Junior Research Fellowship in Computer Science from University Grants Commission, Government of India | details</li>
