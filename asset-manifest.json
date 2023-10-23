@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.5e7f2f6f.chunk.css",
-    "main.js": "/static/js/main.67ef293f.chunk.js",
-    "main.js.map": "/static/js/main.67ef293f.chunk.js.map",
+    "main.js": "/static/js/main.700e7435.chunk.js",
+    "main.js.map": "/static/js/main.700e7435.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3fdae03d.js",
     "runtime-main.js.map": "/static/js/runtime-main.3fdae03d.js.map",
     "static/css/2.ef847dbe.chunk.css": "/static/css/2.ef847dbe.chunk.css",
-    "static/js/2.a3fa055e.chunk.js": "/static/js/2.a3fa055e.chunk.js",
-    "static/js/2.a3fa055e.chunk.js.map": "/static/js/2.a3fa055e.chunk.js.map",
+    "static/js/2.010e8d59.chunk.js": "/static/js/2.010e8d59.chunk.js",
+    "static/js/2.010e8d59.chunk.js.map": "/static/js/2.010e8d59.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.59f2f2c60b80d243e201e2dc5eb45e38.js": "/precache-manifest.59f2f2c60b80d243e201e2dc5eb45e38.js",
+    "precache-manifest.727d81e9fbe5ae4bd65088f500ac037e.js": "/precache-manifest.727d81e9fbe5ae4bd65088f500ac037e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ef847dbe.chunk.css.map": "/static/css/2.ef847dbe.chunk.css.map",
     "static/css/main.5e7f2f6f.chunk.css.map": "/static/css/main.5e7f2f6f.chunk.css.map",
-    "static/js/2.a3fa055e.chunk.js.LICENSE.txt": "/static/js/2.a3fa055e.chunk.js.LICENSE.txt",
+    "static/js/2.010e8d59.chunk.js.LICENSE.txt": "/static/js/2.010e8d59.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Dataiku_logo.png": "/static/media/Dataiku_logo.d8a6648a.png",
     "static/media/HackerRank_logo.png": "/static/media/HackerRank_logo.6582e88b.png",
@@ -34,7 +34,7 @@
     "static/media/hackathon1.svg": "/static/media/hackathon1.f7288055.svg",
     "static/media/iit.png": "/static/media/iit.36d7942a.png",
     "static/media/ino.png": "/static/media/ino.ccf88661.png",
-    "static/media/jnu_logo.png": "/static/media/jnu_logo.075f5419.png",
+    "static/media/jnu_logo.png": "/static/media/jnu_logo.044c7a57.png",
     "static/media/localguide.gif": "/static/media/localguide.847873a8.gif",
     "static/media/localguide.png": "/static/media/localguide.b7f903d7.png",
     "static/media/medium_logo.png": "/static/media/medium_logo.441d6bc5.png",
@@ -54,8 +54,8 @@
   "entrypoints": [
     "static/js/runtime-main.3fdae03d.js",
     "static/css/2.ef847dbe.chunk.css",
-    "static/js/2.a3fa055e.chunk.js",
+    "static/js/2.010e8d59.chunk.js",
     "static/css/main.5e7f2f6f.chunk.css",
-    "static/js/main.67ef293f.chunk.js"
+    "static/js/main.700e7435.chunk.js"
   ]
 }
